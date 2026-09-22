@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environments & Secrets
+.env
+.env.local
+*.env
+
+# SQLite / Database
+*.db
+*.sqlite3
+
+# Generated outputs
+generated_charts/*.png
+generated_charts/*.jpg
+generated_charts/*.svg
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
