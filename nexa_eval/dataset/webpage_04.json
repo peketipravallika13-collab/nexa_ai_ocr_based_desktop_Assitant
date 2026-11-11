@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "This week's roast"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Morrow Coffee"
+    }
+  ],
+  "summary": "The webpage presents Morrow Coffee with a short introduction and three information cards. The leftmost card is This week's roast, followed by two related items."
+}

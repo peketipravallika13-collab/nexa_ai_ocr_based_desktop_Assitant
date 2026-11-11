@@ -1,0 +1,13 @@
+Terminal  |  deploy api  |  PowerShell
+$ deployctl release --service api
+Reading deployment manifest...
+Target: staging-eu
+Uploading 28 files
+Upload complete
+Waiting for health check
+ERROR: health check timed out
+GET /health returned 503
+Last response: database unavailable
+Release remains paused
+Use deployctl logs api --tail
+session 02

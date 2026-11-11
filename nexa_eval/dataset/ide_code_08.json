@@ -1,0 +1,14 @@
+{
+  "category": "IDE code",
+  "questions": [
+    {
+      "q": "Which code line is highlighted amber?",
+      "a": "line 2"
+    },
+    {
+      "q": "Which file is open in the editor?",
+      "a": "status_view.jsx"
+    }
+  ],
+  "summary": "The IDE shows status_view.jsx in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code."
+}

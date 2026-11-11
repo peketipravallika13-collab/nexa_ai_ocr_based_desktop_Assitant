@@ -1,0 +1,30 @@
+Workbook  |  Regional_Sales.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Region
+Orders
+Revenue
+Sheet: Regional_Sales
+1
+Selected cell: A1
+North
+18
+$4,320
+2
+Filter: All records
+South
+14
+$3,780
+3
+West
+11
+$2,940
+4
+East
+9
+$2,410
+5

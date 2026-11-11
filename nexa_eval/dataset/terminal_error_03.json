@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "AssertionError"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "pytest tests/test_catalog.py -q"
+    }
+  ],
+  "summary": "The terminal records the pytest run command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

@@ -1,0 +1,27 @@
+Nexa Studio  |  File  Edit  Selection  View  Run
+workspace  |  Python
+status_view.jsx
+OUTLINE
+EXPLORER
+SYMBOLS
+workspace
+ 1  import React from "react";
+Functions
+src
+ 2  
+status_view.jsx
+Classes
+ 3  export function StatusView({ state }) {
+tests
+ 4    const label = state.ready ? "Ready" : "Waiting";
+README.md
+GIT
+ 5    return (
+working tree
+ 6      <section className="status">
+highlight: amber
+ 7        <h2>{label}</h2>
+ 8        <p>Updated {state.updatedAt}</p>
+ 9      </section>
+10    );
+11  }

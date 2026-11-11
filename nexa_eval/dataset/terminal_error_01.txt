@@ -1,0 +1,13 @@
+Terminal  |  build 01  |  PowerShell
+$ npm run build
+> atlas-ui@2.4.0 build
+> vite build
+vite v5.4.8 building for production...
+✓ 184 modules transformed.
+✗ Build failed in 1.28s
+error: Could not resolve "./theme.css"
+  src/views/Dashboard.tsx:4:7
+4 | import "./theme.css";
+  |        ^^^^^^^^^^^^^
+Process exited with code 1
+session 01

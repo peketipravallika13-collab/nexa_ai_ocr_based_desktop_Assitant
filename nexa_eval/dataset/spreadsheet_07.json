@@ -1,0 +1,14 @@
+{
+  "category": "Spreadsheet",
+  "questions": [
+    {
+      "q": "Which region or item is in the first data row?",
+      "a": "River Atlas"
+    },
+    {
+      "q": "Which column is at the far left?",
+      "a": "Title"
+    }
+  ],
+  "summary": "The Reading_Log worksheet shows three labeled columns and four data rows. The first data row begins with River Atlas, positioned directly below the header row."
+}

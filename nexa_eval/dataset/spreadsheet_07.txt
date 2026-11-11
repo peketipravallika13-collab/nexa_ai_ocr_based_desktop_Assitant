@@ -1,0 +1,30 @@
+Workbook  |  Reading_Log.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Title
+Pages
+Rating
+Sheet: Reading_Log
+1
+Selected cell: A1
+River Atlas
+224
+5
+2
+Filter: All records
+Quiet Rooms
+186
+4
+3
+Field Guide
+302
+5
+4
+Small Maps
+148
+3
+5

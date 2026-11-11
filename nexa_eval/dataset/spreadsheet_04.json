@@ -1,0 +1,14 @@
+{
+  "category": "Spreadsheet",
+  "questions": [
+    {
+      "q": "Which region or item is in the first data row?",
+      "a": "12"
+    },
+    {
+      "q": "Which column is at the far left?",
+      "a": "Plot"
+    }
+  ],
+  "summary": "The Garden_Plots worksheet shows three labeled columns and four data rows. The first data row begins with 12, positioned directly below the header row."
+}

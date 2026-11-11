@@ -1,0 +1,30 @@
+Workbook  |  Support_Queue.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Team
+Open
+Resolved
+Sheet: Support_Queue
+1
+Selected cell: A1
+Access
+6
+42
+2
+Filter: All records
+Billing
+4
+37
+3
+Devices
+9
+31
+4
+Accounts
+3
+28
+5

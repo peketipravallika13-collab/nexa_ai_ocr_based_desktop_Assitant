@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "error"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "npm run build"
+    }
+  ],
+  "summary": "The terminal records the build 01 command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

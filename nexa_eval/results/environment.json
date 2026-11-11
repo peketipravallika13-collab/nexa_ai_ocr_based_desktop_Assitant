@@ -1,0 +1,9 @@
+{
+  "python_version": "3.11.9",
+  "configured_model": "gemini-3.5-flash-lite",
+  "configured_model_source": "ai_client.get_ai_client_config Gemini fallback",
+  "app_provider_in_local_settings": "groq",
+  "app_model_in_local_settings": "openai/gpt-oss-20b",
+  "required_env_file_exists": false,
+  "api_key_value_loaded": false
+}

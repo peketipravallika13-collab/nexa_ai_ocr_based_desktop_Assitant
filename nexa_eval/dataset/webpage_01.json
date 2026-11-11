@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Current conditions"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Harbor Weather"
+    }
+  ],
+  "summary": "The webpage presents Harbor Weather with a short introduction and three information cards. The leftmost card is Current conditions, followed by two related items."
+}

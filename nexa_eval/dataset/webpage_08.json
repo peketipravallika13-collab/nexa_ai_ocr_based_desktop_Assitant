@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Trial 08"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Orchard Lab"
+    }
+  ],
+  "summary": "The webpage presents Orchard Lab with a short introduction and three information cards. The leftmost card is Sample count 64, followed by two related items."
+}

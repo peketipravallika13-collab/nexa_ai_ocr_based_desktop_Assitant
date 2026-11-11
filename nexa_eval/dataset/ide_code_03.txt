@@ -1,0 +1,29 @@
+Nexa Studio  |  File  Edit  Selection  View  Run
+workspace  |  Python
+retry_policy.ts
+OUTLINE
+EXPLORER
+SYMBOLS
+workspace
+ 1  type RetryOptions = {
+Functions
+src
+ 2    attempts: number;
+retry_policy.ts
+Classes
+ 3    delayMs: number;
+tests
+ 4  };
+README.md
+GIT
+ 5  
+working tree
+ 6  export function nextDelay(options: RetryOptions, retry: number): number {
+highlight: amber
+ 7    const capped = Math.min(retry, options.attempts);
+ 8    return options.delayMs * 2 ** capped;
+ 9  }
+10  
+11  export function canRetry(retry: number, limit: number): boolean {
+12    return retry < limit;
+13  }

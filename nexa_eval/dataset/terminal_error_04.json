@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "2026-03-14"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "python worker.py --once"
+    }
+  ],
+  "summary": "The terminal records the sync worker command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

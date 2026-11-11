@@ -1,0 +1,14 @@
+{
+  "category": "PDF/document page",
+  "questions": [
+    {
+      "q": "Which tab is selected in the left contents panel?",
+      "a": "Bookmarks"
+    },
+    {
+      "q": "What department is named above the document title?",
+      "a": "Records"
+    }
+  ],
+  "summary": "The document viewer displays Archive Index Update, issued by Records. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel."
+}

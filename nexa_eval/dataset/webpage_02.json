@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Tide window"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Field Notes"
+    }
+  ],
+  "summary": "The webpage presents Field Notes with a short introduction and three information cards. The leftmost card is High tide 10:42, followed by two related items."
+}

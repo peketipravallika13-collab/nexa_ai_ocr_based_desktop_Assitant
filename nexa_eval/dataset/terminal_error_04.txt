@@ -1,0 +1,11 @@
+Terminal  |  sync worker  |  PowerShell
+$ python worker.py --once
+2026-03-14 08:42:11 INFO  worker started
+2026-03-14 08:42:11 INFO  batch=delta-17
+2026-03-14 08:42:12 INFO  records=240
+2026-03-14 08:42:14 WARN  retry=1 endpoint=/v2/sync
+2026-03-14 08:42:18 ERROR request failed: connection reset
+2026-03-14 08:42:18 INFO  retry scheduled in 8s
+worker status: retrying
+exit code: 0
+session 04

@@ -1,0 +1,13 @@
+Robustness cases recorded: 10
+renamed_txt_as_pdf: handled_gracefully (model=blocked_missing_api_key, tools=none)
+zero_byte_image: crashes (model=not_sent_due_to_ingestion_error, tools=none)
+fully_black_screenshot: works (model=blocked_missing_api_key, tools=none)
+blurred_low_resolution: works (model=blocked_missing_api_key, tools=none)
+small_8px_text: works (model=blocked_missing_api_key, tools=none)
+empty_prompt: handled_gracefully (model=not_sent_by_app_validation, tools=none)
+nonsense_prompt: blocked_missing_api_key (model=blocked_missing_api_key, tools=none)
+prompt_injection_screenshot: blocked_missing_api_key (model=blocked_missing_api_key, tools=none)
+large_pdf: works (model=blocked_missing_api_key, tools=none)
+unsupported_xyz: works (model=blocked_missing_api_key, tools=none)
+CSV: C:\Users\jaswa\Downloads\Nexa_ai_3ye_1\Nexa\nexa_eval\results\robustness.csv
+Evidence images: C:\Users\jaswa\Downloads\Nexa_ai_3ye_1\Nexa\nexa_eval\results\robustness_screenshots

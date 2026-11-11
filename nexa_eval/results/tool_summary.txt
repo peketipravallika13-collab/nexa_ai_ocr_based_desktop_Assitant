@@ -1,0 +1,10 @@
+Model: gemini-3.5-flash-lite
+Test prompts: 12
+Tool-selection accuracy: N/A (no API calls)
+Execution success rate: N/A (no tools executed)
+
+Confusion table (expected tool by selected tool):
+No tool-selection observations; the API key is unavailable.
+
+Evaluation blocked: Required configuration file is missing: config\.env
+No prompts were sent, no tools were selected, and no functions were executed.

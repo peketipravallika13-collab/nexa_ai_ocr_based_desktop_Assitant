@@ -1,0 +1,30 @@
+Workbook  |  Orchard_Trial.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Tree
+Growth cm
+Water ml
+Sheet: Orchard_Trial
+1
+Selected cell: A1
+O-03
+3.2
+450
+2
+Filter: All records
+O-07
+2.8
+400
+3
+O-11
+3.5
+475
+4
+O-15
+2.9
+425
+5

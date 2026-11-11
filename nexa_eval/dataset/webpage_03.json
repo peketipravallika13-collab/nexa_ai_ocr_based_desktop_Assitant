@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Recently added"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Northstar Library"
+    }
+  ],
+  "summary": "The webpage presents Northstar Library with a short introduction and three information cards. The leftmost card is The Practical Archive, followed by two related items."
+}

@@ -1,0 +1,13 @@
+Terminal  |  pytest run  |  PowerShell
+$ pytest tests/test_catalog.py -q
+============================= test session starts =============================
+platform win32 -- Python 3.12.0
+collected 12 items
+tests/test_catalog.py .......F....
+AssertionError: expected 4, got 3
+tests/test_catalog.py:88
+=========================== short test summary info ===========================
+FAILED tests/test_catalog.py::test_active_count
+1 failed, 11 passed
+============================== 1 failed in 0.41s ==============================
+session 03

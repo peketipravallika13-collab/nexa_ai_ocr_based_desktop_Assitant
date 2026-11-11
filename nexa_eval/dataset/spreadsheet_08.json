@@ -1,0 +1,14 @@
+{
+  "category": "Spreadsheet",
+  "questions": [
+    {
+      "q": "Which region or item is in the first data row?",
+      "a": "O-03"
+    },
+    {
+      "q": "Which column is at the far left?",
+      "a": "Tree"
+    }
+  ],
+  "summary": "The Orchard_Trial worksheet shows three labeled columns and four data rows. The first data row begins with O-03, positioned directly below the header row."
+}

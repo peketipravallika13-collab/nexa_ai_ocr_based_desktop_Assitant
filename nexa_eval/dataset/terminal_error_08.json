@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "FATAL"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": ".\\service.exe --config staging.yml"
+    }
+  ],
+  "summary": "The terminal records the service startup command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

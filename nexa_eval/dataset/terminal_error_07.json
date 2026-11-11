@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "ERROR"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "python export_report.py --month 2026-02"
+    }
+  ],
+  "summary": "The terminal records the data export command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

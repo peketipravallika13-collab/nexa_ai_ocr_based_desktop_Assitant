@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Route 6"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Transit Board"
+    }
+  ],
+  "summary": "The webpage presents Transit Board with a short introduction and three information cards. The leftmost card is Platform 2, followed by two related items."
+}

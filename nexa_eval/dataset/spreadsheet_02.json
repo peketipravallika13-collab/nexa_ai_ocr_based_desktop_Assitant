@@ -1,0 +1,14 @@
+{
+  "category": "Spreadsheet",
+  "questions": [
+    {
+      "q": "Which region or item is in the first data row?",
+      "a": "A-14"
+    },
+    {
+      "q": "Which column is at the far left?",
+      "a": "Sample"
+    }
+  ],
+  "summary": "The Lab_Readings worksheet shows three labeled columns and four data rows. The first data row begins with A-14, positioned directly below the header row."
+}

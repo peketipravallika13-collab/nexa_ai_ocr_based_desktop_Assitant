@@ -1,0 +1,13 @@
+﻿test_id,expected_tool,selected_tool,selection_correct,executed_without_error,latency_seconds,status,error
+calc_01,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_02,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_03,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_04,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_05,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_06,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_07,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+calc_08,calculator,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+email_01,email_manager,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+email_02,email_manager,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+email_03,email_manager,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env
+email_04,email_manager,,,,,blocked_missing_api_key,Required configuration file is missing: config\.env

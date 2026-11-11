@@ -1,0 +1,14 @@
+{
+  "category": "Spreadsheet",
+  "questions": [
+    {
+      "q": "Which region or item is in the first data row?",
+      "a": "Access"
+    },
+    {
+      "q": "Which column is at the far left?",
+      "a": "Team"
+    }
+  ],
+  "summary": "The Support_Queue worksheet shows three labeled columns and four data rows. The first data row begins with Access, positioned directly below the header row."
+}

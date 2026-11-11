@@ -1,0 +1,14 @@
+{
+  "category": "IDE code",
+  "questions": [
+    {
+      "q": "Which code line is highlighted amber?",
+      "a": "line 10"
+    },
+    {
+      "q": "Which file is open in the editor?",
+      "a": "queue_worker.js"
+    }
+  ],
+  "summary": "The IDE shows queue_worker.js in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code."
+}

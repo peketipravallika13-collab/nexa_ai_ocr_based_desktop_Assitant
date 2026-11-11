@@ -1,0 +1,21 @@
+Nexa AI screenshot evaluation
+Configured Gemini model: gemini-3.5-flash-lite
+Images in dataset: 40
+Images with completed Gemini responses: 0
+Rows with OCR/model errors: 0
+
+Category | Images | OCR exact | Mean CER | Mean WER | QA exact | QA total | Exact match | Mean summary token-F1
+--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---:
+PDF/document page | 8 | 0 | 0.0990 | 0.2029 | 0 | 0 | N/A | N/A
+IDE code | 8 | 0 | 0.3087 | 0.4110 | 0 | 0 | N/A | N/A
+Spreadsheet | 8 | 0 | 0.2993 | 0.4394 | 0 | 0 | N/A | N/A
+Terminal error output | 8 | 0 | 0.2651 | 0.4253 | 0 | 0 | N/A | N/A
+Webpage | 8 | 0 | 0.3331 | 0.3971 | 0 | 0 | N/A | N/A
+Overall | 40 | 0 | 0.2611 | 0.3751 | 0 | 0 | N/A | N/A
+
+Raw outputs: raw_results.jsonl; resumable cache: cache.json; row data: evaluation.csv.
+
+STATUS: BLOCKED for Gemini evaluation.
+Required configuration file is missing: config\.env
+The app's local settings currently identify provider='groq' and model='openai/gpt-oss-20b'; the mandated config/.env key was not available, so no cloud request was made.
+EasyOCR was still run locally on the dataset and its text and measured timings were saved.

@@ -1,0 +1,14 @@
+{
+  "category": "IDE code",
+  "questions": [
+    {
+      "q": "Which code line is highlighted amber?",
+      "a": "line 9"
+    },
+    {
+      "q": "Which file is open in the editor?",
+      "a": "tile_map.rs"
+    }
+  ],
+  "summary": "The IDE shows tile_map.rs in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code."
+}

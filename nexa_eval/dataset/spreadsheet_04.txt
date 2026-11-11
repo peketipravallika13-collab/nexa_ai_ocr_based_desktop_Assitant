@@ -1,0 +1,30 @@
+Workbook  |  Garden_Plots.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Plot
+Crop
+Water L
+Sheet: Garden_Plots
+1
+Selected cell: A1
+12
+Tomato
+8
+2
+Filter: All records
+08
+Kale
+5
+3
+19
+Beans
+7
+4
+04
+Mint
+3
+5

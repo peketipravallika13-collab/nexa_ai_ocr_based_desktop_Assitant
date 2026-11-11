@@ -1,0 +1,29 @@
+Nexa Studio  |  File  Edit  Selection  View  Run
+workspace  |  Python
+queue_worker.js
+OUTLINE
+EXPLORER
+SYMBOLS
+workspace
+ 1  const queue = [];
+Functions
+src
+ 2  
+queue_worker.js
+Classes
+ 3  export function enqueue(task) {
+tests
+ 4    if (!task || !task.id) {
+README.md
+GIT
+ 5      throw new Error("task id required");
+working tree
+ 6    }
+highlight: amber
+ 7    queue.push(task);
+ 8    return queue.length;
+ 9  }
+10  
+11  export function takeNext() {
+12    return queue.shift() ?? null;
+13  }

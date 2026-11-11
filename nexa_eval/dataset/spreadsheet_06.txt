@@ -1,0 +1,30 @@
+Workbook  |  Print_Stock.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Paper
+Sheets
+Cost
+Sheet: Print_Stock
+1
+Selected cell: A1
+Matte
+1200
+$84
+2
+Filter: All records
+Recycled
+950
+$73
+3
+Gloss
+720
+$61
+4
+Card
+430
+$58
+5

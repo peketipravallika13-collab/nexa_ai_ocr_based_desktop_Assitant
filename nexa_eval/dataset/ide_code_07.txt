@@ -1,0 +1,31 @@
+Nexa Studio  |  File  Edit  Selection  View  Run
+workspace  |  Python
+tile_map.rs
+OUTLINE
+EXPLORER
+SYMBOLS
+workspace
+ 1  #[derive(Clone, Copy)]
+Functions
+src
+ 2  struct Point { x: i32, y: i32 }
+tile_map.rs
+Classes
+ 3  
+tests
+ 4  fn manhattan(a: Point, b: Point) -> i32 {
+README.md
+GIT
+ 5      (a.x - b.x).abs() + (a.y - b.y).abs()
+working tree
+ 6  }
+highlight: amber
+ 7  
+ 8  fn inside_grid(point: Point, width: i32, height: i32) -> bool {
+ 9      point.x >= 0 && point.y >= 0
+10          && point.x < width && point.y < height
+11  }
+12  
+13  fn main() {
+14      println!("distance={}", manhattan(Point { x: 2, y: 1 }, Point { x: 7, y: 4 }));
+15  }

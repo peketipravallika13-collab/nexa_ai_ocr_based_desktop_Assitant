@@ -1,0 +1,14 @@
+{
+  "category": "Spreadsheet",
+  "questions": [
+    {
+      "q": "Which region or item is in the first data row?",
+      "a": "Matte"
+    },
+    {
+      "q": "Which column is at the far left?",
+      "a": "Paper"
+    }
+  ],
+  "summary": "The Print_Stock worksheet shows three labeled columns and four data rows. The first data row begins with Matte, positioned directly below the header row."
+}

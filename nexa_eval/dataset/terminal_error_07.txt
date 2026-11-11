@@ -1,0 +1,11 @@
+Terminal  |  data export  |  PowerShell
+$ python export_report.py --month 2026-02
+Opening read-only connection...
+Source rows: 1842
+Filtering month: 2026-02
+Writing output/report.csv
+ERROR: permission denied: output/report.csv
+Check folder access and retry.
+Rows exported: 0
+export status: failed
+session 07

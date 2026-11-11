@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Open hours"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Civic Garden"
+    }
+  ],
+  "summary": "The webpage presents Civic Garden with a short introduction and three information cards. The leftmost card is Tuesday to Saturday, followed by two related items."
+}

@@ -1,0 +1,42 @@
+# Nexa AI Security Facts
+
+## API Keys And Storage
+
+- The application reads provider, model, and API-key values from SQLite settings. The default database path is `%USERPROFILE%/.nexa_ai/nexa_history.db`; the settings table stores `key TEXT` and `value TEXT`, with no encryption layer in the read/write code. See [database.py](../../database.py#L5), lines 19 and 21, line 50, line 75, line 88, and [ai_client.py](../../ai_client.py#L59), lines 64 and 80.
+- The settings dialog masks the API-key field on screen, then saves its value to SQLite. Masking is presentation only, not encryption. See [gui_components.py](../../gui_components.py#L1839) and line 1983.
+- The application Python files do not load `config/.env`; this workspace has no `config/.env`. The evaluation harness reads only that path and did not find a key. The local SQLite settings inspected read-only instead show provider `groq` and model `openai/gpt-oss-20b`.
+- Gemini requests place the key in the request URL query string. OpenAI and Groq requests use an `Authorization: Bearer` header. See [ai_client.py](../../ai_client.py#L126), [ai_client.py](../../ai_client.py#L269), and [ai_client.py](../../ai_client.py#L334).
+
+## Data Sent To Providers
+
+No model or speech-provider requests were made during this evaluation because the required `.env` key was absent. The following describes the payload construction present in the source, not observed network traffic.
+
+- **Screen capture:** captured PNGs are saved locally, then EasyOCR text is embedded in the user prompt and the original screenshot is attached as inline image data for Gemini, OpenAI, or Groq. Gemini/OpenAI encode the full original image; Groq resizes images wider than 480 pixels and JPEG-compresses them at quality 40. See [ocr_engine.py](../../ocr_engine.py#L84), [gui_components.py](../../gui_components.py#L3283), [ai_client.py](../../ai_client.py#L145), [ai_client.py](../../ai_client.py#L286), and [ai_client.py](../../ai_client.py#L374).
+- **Image attachments:** the image path is attached to the user message and image bytes are encoded into the selected model request. The app does not OCR these attachments in `process_any_file`; screen capture OCR is a separate path. See [input_processors.py](../../input_processors.py#L553) and [ai_client.py](../../ai_client.py#L140).
+- **Text, code, PDF, DOCX, and spreadsheets:** local parsers produce text, PDF page extracts, or spreadsheet previews/statistics. The user payload is stored as chat text and sent to the configured model when the user sends the message. PDF extraction is capped at the first 30 pages. For image-only PDFs, page 1 is rendered locally, OCR'd, and attached as image data as well as extracted text. See [input_processors.py](../../input_processors.py#L102), [input_processors.py](../../input_processors.py#L114), [input_processors.py](../../input_processors.py#L127), [input_processors.py](../../input_processors.py#L553), and [gui_components.py](../../gui_components.py#L3087).
+- **Audio attachments and microphone:** audio attachment transcription calls `SpeechRecognition.recognize_google` during file processing, and microphone transcription calls it after the user stops recording. Both send audio to Google's speech-recognition service before the transcript is submitted as a chat message. The returned transcript is then sent to the configured LLM only when the user sends it. Temporary converted WAV files are removed in a `finally` block. See [input_processors.py](../../input_processors.py#L344), [input_processors.py](../../input_processors.py#L372), [input_processors.py](../../input_processors.py#L395), and [gui_components.py](../../gui_components.py#L2068).
+- **URLs:** Nexa fetches the URL from the user's machine, strips markup, and places extracted page text into the attachment payload sent to the configured LLM. See [input_processors.py](../../input_processors.py#L445) and [gui_components.py](../../gui_components.py#L2828).
+- **Search and tools:** Gemini can be configured with Google Search grounding, code execution, and plugin function declarations; both Search and code execution default to enabled in database settings. Weather and URL-reader functions make separate HTTP requests. See [ai_client.py](../../ai_client.py#L97), lines 103 and 107, [database.py](../../database.py#L56), [database.py](../../database.py#L57), [plugin_manager.py](../../plugin_manager.py#L187), and [plugin_manager.py](../../plugin_manager.py#L234).
+- **Email:** the `draft` action passes recipient, subject, and body into a `mailto:` URL for the local email client. The `send_smtp` action can transmit message content and recipient addresses through configured SMTP. See [email_plugin.py](../../plugins/email_plugin.py#L50), [email_plugin.py](../../plugins/email_plugin.py#L68), and [email_plugin.py](../../plugins/email_plugin.py#L90).
+
+## User Approval
+
+- Screen capture shows a confirmation dialog before capture when `show_capture_prompt` is enabled (default is true). This is approval to capture, not a review of the captured image or OCR text. After OCR, the app stores the content and immediately requests the AI response without a second approval step. The setting can disable the prompt. See [gui_components.py](../../gui_components.py#L507), [gui_components.py](../../gui_components.py#L3198), [gui_components.py](../../gui_components.py#L3300), and [gui_components.py](../../gui_components.py#L3302).
+- For file/image/URL attachments, the user selects or drops the file and then explicitly sends the chat message. The UI shows an attachment chip, not a full content approval screen. See [gui_components.py](../../gui_components.py#L2621) and [gui_components.py](../../gui_components.py#L3087).
+- Audio is an exception: selecting an audio file starts transcription immediately, and stopping a microphone recording invokes Google speech recognition before the resulting text is sent as a chat message. Neither path presents a separate pre-transcription upload approval screen. See [input_processors.py](../../input_processors.py#L372) and [gui_components.py](../../gui_components.py#L2068).
+
+## Tool Confirmation And Email Safety
+
+- Gemini function calls are dispatched directly to `plugin_manager.execute_tool_call`; there is no confirmation callback in that path. The dispatcher invokes built-in and dynamically loaded plugin handlers. See [ai_client.py](../../ai_client.py#L208), [plugin_manager.py](../../plugin_manager.py#L274), and [plugin_manager.py](../../plugin_manager.py#L445).
+- The email plugin supports both opening a draft and direct SMTP sending. The source does not require user confirmation before the `send_smtp` branch reaches `server.sendmail`. See [email_plugin.py](../../plugins/email_plugin.py#L90) and [email_plugin.py](../../plugins/email_plugin.py#L114).
+- In this evaluation, email dispatch was not attempted because no API key was available. The tool evaluator additionally forces any observed email call to `draft` and patches `webbrowser.open`; no message was sent.
+
+## Temporary Screenshots
+
+- Screen captures are written under `%USERPROFILE%/.nexa_ai/screenshots` and their paths are retained with chat messages. The capture path has no post-use deletion; screenshots therefore remain on disk unless removed separately. See [ocr_engine.py](../../ocr_engine.py#L92), [ocr_engine.py](../../ocr_engine.py#L125), and [gui_components.py](../../gui_components.py#L3300).
+- Audio conversion has explicit temporary-WAV cleanup. The screenshot capture path does not have analogous cleanup. See [input_processors.py](../../input_processors.py#L395).
+
+## Prompt Injection
+
+- The visible system prompt asks the model to analyze images, documents, code, and video; it contains no explicit untrusted-content boundary or prompt-injection defense. Captured OCR and user text are concatenated into user messages, and Gemini function calls are executed by the backend dispatcher. See [ai_client.py](../../ai_client.py#L82), [gui_components.py](../../gui_components.py#L3283), and [ai_client.py](../../ai_client.py#L208).
+- No prompt-injection filtering or tool-confirmation safeguard was found in the inspected ingestion and dispatch paths. The injected-screenshot test's Gemini/tool outcome is **unknown**, not safe or unsafe, because no cloud key was available and no request was made.

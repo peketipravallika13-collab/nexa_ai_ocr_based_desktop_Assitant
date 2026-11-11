@@ -1,0 +1,14 @@
+{
+  "category": "Webpage",
+  "questions": [
+    {
+      "q": "Which card appears in the leftmost position?",
+      "a": "Paper guide"
+    },
+    {
+      "q": "What is the page title?",
+      "a": "Blue Finch Studio"
+    }
+  ],
+  "summary": "The webpage presents Blue Finch Studio with a short introduction and three information cards. The leftmost card is Paper guide, followed by two related items."
+}

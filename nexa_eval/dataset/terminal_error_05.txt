@@ -1,0 +1,12 @@
+Terminal  |  database migration  |  PowerShell
+$ python manage.py migrate
+Applying inventory.0012_add_bin_code...
+Traceback (most recent call last):
+  File "manage.py", line 18, in <module>
+    run_migrations()
+  File "db/migrate.py", line 73, in run_migrations
+    cursor.execute(statement)
+sqlite3.OperationalError: no such table: inventory_bins
+Migration stopped; no changes committed
+Command failed with exit status 1
+session 05

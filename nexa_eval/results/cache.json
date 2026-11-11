@@ -1,0 +1,1242 @@
+{
+  "document_01.png": {
+    "image": "document_01.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Quarterly Service Review pdf CONTENTS REVIEW Bookmarks Selected OPERATIONS Comments Comments Quarterly Service Review Page of 1 Review note Issue 01 Response time improved during the final review period The support team closed 312 requests and carried 18 open items into the next cycle. Priority for June: reduce repeat incidents the access queue",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 8.806704299990088,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Operations"
+      }
+    ],
+    "reference_summary": "The document viewer displays Quarterly Service Review, issued by Operations. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.035897435897435895,
+    "word_error_rate": 0.11764705882352941
+  },
+  "document_02.png": {
+    "image": "document_02.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View River Survey Memo pdf CONTENTS REVIEW Bookmarks Selected FIELD RESEARCH Comments Comments River Survey Memo Page of 1 Review note Issue 02 Water samples were co ected at four marked points; reading showed The downstream evated sediment after rainfall: Next visit: repeat collection after dry interval:",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.915076100034639,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Field Research"
+      }
+    ],
+    "reference_summary": "The document viewer displays River Survey Memo, issued by Field Research. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.12173913043478261,
+    "word_error_rate": 0.26666666666666666
+  },
+  "document_03.png": {
+    "image": "document_03.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Community Room Plan pdf CONTENTS REVIEW Bookmarks Selected FACILITIES Comments Comments Community Room Plan Page of 1 Review note Issue 03 The east room will remain open during weekday renovations Temporary seating available beside the north entrance; Facilities will review access routes before the first event",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.811616300139576,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Facilities"
+      }
+    ],
+    "reference_summary": "The document viewer displays Community Room Plan, issued by Facilities. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.04225352112676056,
+    "word_error_rate": 0.15
+  },
+  "document_04.png": {
+    "image": "document_04.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Archive Index Update pdf CONTENTS REVIEW Bookmarks Selected RECORDS Comments Comments Archive Index Update Page of 1 Review note Issue 04 The index now includes photographs from the 1980 1986 series: signed harbor plans Box 14 contains the Unlabeled negatives remain the conservation queue",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.473474300000817,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Records"
+      }
+    ],
+    "reference_summary": "The document viewer displays Archive Index Update, issued by Records. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.15773809523809523,
+    "word_error_rate": 0.2711864406779661
+  },
+  "document_05.png": {
+    "image": "document_05.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Project Willow Brief pdf CONTENTS REVIEW Bookmarks Selected PLANNING Comments Comments Project Willow Brief Page of 1 Review note Issue 05 The pilot connects three neighborhood collection points. Each location ports weight at the end of the day. The team will publish = revised schedule on Friday.",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.660696799866855,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Planning"
+      }
+    ],
+    "reference_summary": "The document viewer displays Project Willow Brief, issued by Planning. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.03550295857988166,
+    "word_error_rate": 0.11666666666666667
+  },
+  "document_06.png": {
+    "image": "document_06.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Studio Safety Note pdf CONTENTS REVIEW Bookmarks Selected WORKSHOP Comments Comments Studio Safety Note Page of 1 Review note Issue 06 Keep the cutting mat clear before using the rotary tool: Store spare blades the marked cabinet: Report damaged guards to the workshop lead.",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.441842099884525,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Workshop"
+      }
+    ],
+    "reference_summary": "The document viewer displays Studio Safety Note, issued by Workshop. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.04430379746835443,
+    "word_error_rate": 0.13793103448275862
+  },
+  "document_07.png": {
+    "image": "document_07.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Library Access Report pdf CONTENTS REVIEW Bookmarks Selected PUBLIC SERVICES Comments Comments Library Access Report Page of 1 Review note Issue 07 Evening visits increased after the reading room opened later. The accessible entrance remains available from Pine Street: planned for the west desk: second audio station",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.497266900027171,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Public Services"
+      }
+    ],
+    "reference_summary": "The document viewer displays Library Access Report, issued by Public Services. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.14681440443213298,
+    "word_error_rate": 0.24193548387096775
+  },
+  "document_08.png": {
+    "image": "document_08.png",
+    "category": "PDF/document page",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Document Viewer File Edit View Supplier Review pdf CONTENTS REVIEW Bookmarks Selected PROCUREMENT Comments Comments Supplier Review Page of 1 Review note Issue 08 Northline delivered all scheduled paper stock damaged corners and were replaced. Two cartons arrived with finish: The next order will use the same recycled",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.567124700173736,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which tab is selected in the left contents panel?",
+        "a": "Bookmarks"
+      },
+      {
+        "q": "What department is named above the document title?",
+        "a": "Procurement"
+      }
+    ],
+    "reference_summary": "The document viewer displays Supplier Review, issued by Procurement. Its page contains three short review notes, and the Bookmarks tab is selected in the contents panel.",
+    "character_error_rate": 0.20795107033639143,
+    "word_error_rate": 0.32142857142857145
+  },
+  "ide_code_01.png": {
+    "image": "ide_code_01.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Nexa Studio File Edit Selection View Run Workspace Python OUTLINE py cache_store EXPLORER SYMBOL Work from dataclasses import dataclass space Functions src from typing import Optional Classes cache store py tests @dataclass README . md ~GIT class CacheEntry working tree key : str highlight : amber value str expires_at: int CacheEntry, 'def is_fresh(entry: int) bool 10 now : 11 now entry expires_at return 12 13 def get_value(entry: Optional[ CacheEntry]) str: 14 if entry is None 15 \"missing' return 16 entry.value return",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.607152599841356,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 2"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "cache_store.py"
+      }
+    ],
+    "reference_summary": "The IDE shows cache_store.py in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.28,
+    "word_error_rate": 0.375
+  },
+  "ide_code_02.png": {
+    "image": "ide_code_02.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "View Nexa Studio File Edit Selection Run Workspace Python OUTLINE batch_job.py EXPLORER SYMBOL Work import logging space Functions src pathlib import Path from Classes batch_job.py tests logger logging getLogger( name README . md ~GIT working tree count_records( folder: def Path) int highlight : amber total folder.glob(\"; for path json\" ) : in total logger info(\"records=%s total) 10 11 return total 12 13 _main_ if name_ E= 14 print(count_records(Path(\"data\") ) )",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.258748600026593,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 3"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "batch_job.py"
+      }
+    ],
+    "reference_summary": "The IDE shows batch_job.py in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.3425196850393701,
+    "word_error_rate": 0.4263565891472868
+  },
+  "ide_code_03.png": {
+    "image": "ide_code_03.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "File Edit Nexa Studio Selection View Run Workspace Python retry_policy.ts OUTLINE EXPLORER SYMBOL Work type Retryoptions space Functions src number; attempts retry_policy Classes ts delayMs number tests README . md ~GIT working tree export function nextDelay(options Retryoptions, retry: number) number highlight : amber const capped Math.min(retry, options attempts) ; return options. delayMs capped; 10 limit: export function canRetry(retry: number) : boolean 11 number limit; return retry 12 13",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.472707999870181,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 2"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "retry_policy.ts"
+      }
+    ],
+    "reference_summary": "The IDE shows retry_policy.ts in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.24080882352941177,
+    "word_error_rate": 0.4344262295081967
+  },
+  "ide_code_04.png": {
+    "image": "ide_code_04.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "File Edit Nexa Studio View workspace Selection Run Python OUTLIMF py invoice_total EXPLORER SYMBOL decimal import Decimal Work space from Functions src invoice_total.py Classes list[tuple[int, Decimal]]) def invoice_total(lines Decimal: tests 00\"- subtotal Decimal( README . md GIT for quantity, unit_price in lines: working tree unit_price subtotal quantity highlight: amber tax subtotal Decimal(\" 08 tax) . quantize(Decimal(' 01\") ) (subtotal return [(2, Decimal(\"14.50\")) , (1, Decimal( 00\") ) ] 10 items print(invoice_total(items) ) 11",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.611286399886012,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 6"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "invoice_total.py"
+      }
+    ],
+    "reference_summary": "The IDE shows invoice_total.py in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.4231433506044905,
+    "word_error_rate": 0.445859872611465
+  },
+  "ide_code_05.png": {
+    "image": "ide_code_05.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "File Edit Nexa Studio Selection View workspace Run Python queue_Worker.js OUTLINE EXPLORER SYMBOLS Work const queue [J; space Functions src worker.js Classes queue export function enqueue(task) tests if ( !task || !task.id) README . md ~GIT task id required\" ) ; throw new Error working tree highlight: amber queue.push(task) ; return queue. length; 10 export function takeNext ( ) 11 return queue.shift() 2? null; 12 13",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.764398900093511,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 10"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "queue_worker.js"
+      }
+    ],
+    "reference_summary": "The IDE shows queue_worker.js in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.26681614349775784,
+    "word_error_rate": 0.3508771929824561
+  },
+  "ide_code_06.png": {
+    "image": "ide_code_06.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "View Nexa Studio File Edit workspace Selection Run Python OUTLINE sql schema EXPLORER SYMBOLS CREATE TABLE shipments Work space Functions src shipment_id INTEGER PRIMARY KEY_ Classes schema sq1 id INTEGER NOT NULL, order tests TEXT NOT NULL, status README . md ~GIT updated_at TIMESTAMP NOT NULL working tree highlight: amber CREATE INDEX idx_shipments_status ON shipments( status); 10 SELECT status COUNT ( * ) AS total 11 FROM shipments 12 GROUP BY status 13 ORDER BY total DESC; 14",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.101160699967295,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 10"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "schema.sql"
+      }
+    ],
+    "reference_summary": "The IDE shows schema.sql in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.27976190476190477,
+    "word_error_rate": 0.38613861386138615
+  },
+  "ide_code_07.png": {
+    "image": "ide_code_07.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "View Nexa Studio File Edit Selection workspace Run Python OUTLINE tile_map rs EXPLORER SYMBOLS Work #[derive(Clone Copy ) ] space Functions src 132, struct Point 132 X: y : tile_map Classes ns tests fn manhattan(a Point, Point) 132 b : README . md GIT (a.X b.x) .abs ( ) (a.y b.y) . abs ( ) working tree highlight: amber fn inside_grid(point: Point, Width: 132, height: 132) bool point && point point width && point.y height 10 && 11 12 13 fn main( ) println! x: 7, y: 4 })); 14 distance={ } manhattan(Point X: 2, y: 1 }, Point 15",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.4488590999972075,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 9"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "tile_map.rs"
+      }
+    ],
+    "reference_summary": "The IDE shows tile_map.rs in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.3372681281618887,
+    "word_error_rate": 0.45544554455445546
+  },
+  "ide_code_08.png": {
+    "image": "ide_code_08.png",
+    "category": "IDE code",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Nexa Studio File Edit Selection View Run Workspace Python OUTLINE status_View.jsx EXPLORER 'react\" SYMBOL Work import React space from Functions src Classes view status Jsx export function StatusView( { state }) tests \"Waiting' Ready' const label state.ready README . md ~GIT return working tree <section className= status highlight : amber <h2>{label}</h2> <p>Updated {state.updatedAt}</p> /section> 10 11",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.669773400062695,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which code line is highlighted amber?",
+        "a": "line 2"
+      },
+      {
+        "q": "Which file is open in the editor?",
+        "a": "status_view.jsx"
+      }
+    ],
+    "reference_summary": "The IDE shows status_view.jsx in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code.",
+    "character_error_rate": 0.29954954954954954,
+    "word_error_rate": 0.41379310344827586
+  },
+  "spreadsheet_01.png": {
+    "image": "spreadsheet_01.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Regional_Sales xlsx Workbook Saved File Home Data Review Insert Sheet: Regional Region Orders Revenue Sales Selected cell: A1 North 18 S4,320 Filter: All records South 53,780 14 West $2,940 East 52,410",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.428155200090259,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "North"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Region"
+      }
+    ],
+    "reference_summary": "The Regional_Sales worksheet shows three labeled columns and four data rows. The first data row begins with North, positioned directly below the header row.",
+    "character_error_rate": 0.3577586206896552,
+    "word_error_rate": 0.45
+  },
+  "spreadsheet_02.png": {
+    "image": "spreadsheet_02.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Lab_Readings xlsx Workbook Saved File Home Data Review Insert Sheet: Lab_Readings Sample pH Temp Selected cell: A1 14 7.2 18.4 Filter: All records B-09 17.9 C-03 7.,0 19.1 D-21 18.0",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.037916500121355,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "A-14"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Sample"
+      }
+    ],
+    "reference_summary": "The Lab_Readings worksheet shows three labeled columns and four data rows. The first data row begins with A-14, positioned directly below the header row.",
+    "character_error_rate": 0.38990825688073394,
+    "word_error_rate": 0.3835616438356164
+  },
+  "spreadsheet_03.png": {
+    "image": "spreadsheet_03.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Support_Queue xlsx Workbook Saved File Home Data Review Insert Sheet: Support_Queue Team Open Resolved Selected cell: A1 Access Filter: All records Billing Devices 28 Accounts",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 4.9810338001698256,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "Access"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Team"
+      }
+    ],
+    "reference_summary": "The Support_Queue worksheet shows three labeled columns and four data rows. The first data row begins with Access, positioned directly below the header row.",
+    "character_error_rate": 0.44954128440366975,
+    "word_error_rate": 0.5416666666666666
+  },
+  "spreadsheet_04.png": {
+    "image": "spreadsheet_04.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Workbook Garden_Plotsxlsx Saved File Home Data Review Insert Plot Crop Water Sheet: Garden_Plots Selected cell: A1 12 Tomato Filter: All records 08 Kale 19 Beans Mint 04",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.119803400011733,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "12"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Plot"
+      }
+    ],
+    "reference_summary": "The Garden_Plots worksheet shows three labeled columns and four data rows. The first data row begins with 12, positioned directly below the header row.",
+    "character_error_rate": 0.21844660194174756,
+    "word_error_rate": 0.4489795918367347
+  },
+  "spreadsheet_05.png": {
+    "image": "spreadsheet_05.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Workbook Transit_Times xlsx Saved File Home Data Review Insert Route On time Delay min Sheet: Transit_Times Selected cell: A1 92% Filter: All records 88% 96% 15 84%",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.012631600024179,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "6"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Route"
+      }
+    ],
+    "reference_summary": "The Transit_Times worksheet shows three labeled columns and four data rows. The first data row begins with 6, positioned directly below the header row.",
+    "character_error_rate": 0.23414634146341465,
+    "word_error_rate": 0.3888888888888889
+  },
+  "spreadsheet_06.png": {
+    "image": "spreadsheet_06.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Workbook Print_Stock xlsx Saved File Home Data Review Insert Paper Sheets Cost Sheet: Print_Stock Selected cell: A1 Matte 1200 S84 Filter: All records Recycled 950 S73 Gloss 720 S61 Card 558 430",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.197213900042698,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "Matte"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Paper"
+      }
+    ],
+    "reference_summary": "The Print_Stock worksheet shows three labeled columns and four data rows. The first data row begins with Matte, positioned directly below the header row.",
+    "character_error_rate": 0.19090909090909092,
+    "word_error_rate": 0.4423076923076923
+  },
+  "spreadsheet_07.png": {
+    "image": "spreadsheet_07.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Reading_Log xlsx Workbook Saved File Home Data Review Insert Sheet: Reading Rating Pages Log Title Selected cell: A1 River Atlas 224 Filter: All records Quiet Rooms 186 Field Guide 302 Smal Maps 148",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.31288280012086,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "River Atlas"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Title"
+      }
+    ],
+    "reference_summary": "The Reading_Log worksheet shows three labeled columns and four data rows. The first data row begins with River Atlas, positioned directly below the header row.",
+    "character_error_rate": 0.34763948497854075,
+    "word_error_rate": 0.4807692307692308
+  },
+  "spreadsheet_08.png": {
+    "image": "spreadsheet_08.png",
+    "category": "Spreadsheet",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Workbook Orchard_Trial xlsx Saved File Home Data Review Insert Tree Growth cm Water ml Sheet: Orchard_Trial Selected cell: A1 03 3.2 450 Filter: All records 0-07 2.8 400 0-11 475 0-15 425",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.15582749992609,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which region or item is in the first data row?",
+        "a": "O-03"
+      },
+      {
+        "q": "Which column is at the far left?",
+        "a": "Tree"
+      }
+    ],
+    "reference_summary": "The Orchard_Trial worksheet shows three labeled columns and four data rows. The first data row begins with O-03, positioned directly below the header row.",
+    "character_error_rate": 0.2062780269058296,
+    "word_error_rate": 0.3787878787878788
+  },
+  "terminal_error_01.png": {
+    "image": "terminal_error_01.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Terminal build 01 Powershell build npm run atlas-ui@2.4 build vite build vite V5.4.8 building for production @ 184 modules transformed Build failed in 285 Could not resolve Itheme error 4:7 srclviews/Dashboard.tsx:- import Itheme CSS Process exited with code ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.287893400061876,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "error"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "npm run build"
+      }
+    ],
+    "reference_summary": "The terminal records the build 01 command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.27102803738317754,
+    "word_error_rate": 0.5631067961165048
+  },
+  "terminal_error_02.png": {
+    "image": "terminal_error_02.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "PowerShell Terminal deploy api deployctl release service api Reading deployment manifest . Target: staging eu Uploading 28 files Upload complete Waiting for health check ERROR : health check timed out GET /health returned 503 Last database unavailable response: Release remains paused logs Use deployctl tail api ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.225666899932548,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "ERROR"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "deployctl release --service api"
+      }
+    ],
+    "reference_summary": "The terminal records the deploy api command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.2222222222222222,
+    "word_error_rate": 0.3442622950819672
+  },
+  "terminal_error_03.png": {
+    "image": "terminal_error_03.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "PowerShell pytest run Terminal pytest tests/test_catalog.py test session starts platform Win32 Python 3.12.0 collected 12 items tests/test_catalog.py AssertionError expected got 4 , tests/test_catalog.py: 88 short test info summary py: :test_active_count FAILED tests/test_catalog failed, passed 11 failed in 0.41s ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.885647600051016,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "AssertionError"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "pytest tests/test_catalog.py -q"
+      }
+    ],
+    "reference_summary": "The terminal records the pytest run command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.49624060150375937,
+    "word_error_rate": 0.8
+  },
+  "terminal_error_04.png": {
+    "image": "terminal_error_04.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Terminal sync worker Powershell python worker.py once worker started 2026-03-14 08:42:11 INFO 2026-03-14 08:42:11 INFO batch-delta-17 2026-03-14 08:42:12 INFO records-240 2026-03-14 08:42:14 WARN retry-1 endpoint-/v2/sync 08:42:18 ERROR request 2026-03-14 failed: connection reset retry scheduled 2026-03-14 08:42:18 INFO in 8s worker status retrying exit code: ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.62143319984898,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "2026-03-14"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "python worker.py --once"
+      }
+    ],
+    "reference_summary": "The terminal records the sync worker command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.2689295039164491,
+    "word_error_rate": 0.2542372881355932
+  },
+  "terminal_error_05.png": {
+    "image": "terminal_error_05.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Terminal database migration Powershell python manage py migrate Applying inventory.0012_add bin code Traceback (most recent call last) : File 'manage .py' line 18 , in <module> run_migrations( ) File db/migrate.py\" line 73, in run_migrations cursor.execute(statement) inventory_bins sqlite3 OperationalError such table no changes committed Migration stopped; no Command failed With exit status ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 7.143420699983835,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "sqlite3.OperationalError"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "python manage.py migrate"
+      }
+    ],
+    "reference_summary": "The terminal records the database migration command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.1971153846153846,
+    "word_error_rate": 0.28735632183908044
+  },
+  "terminal_error_06.png": {
+    "image": "terminal_error_06.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "Terminal package audit Powershell npm audit omit-dev npm audit report marked 4.1 Severity: moderate Inefficient Regular Expression Complexity advisories/GHSA-xxX-1234 https: //github com/ fix available npm audit fix via found moderate severity vulnerability audit completed in 2.35 ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.2113503001164645,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "Severity"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "npm audit --omit=dev"
+      }
+    ],
+    "reference_summary": "The terminal records the package audit command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.2236842105263158,
+    "word_error_rate": 0.4461538461538462
+  },
+  "terminal_error_07.png": {
+    "image": "terminal_error_07.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "data export Terminal Powershell python export_report.py month 2026 02 Opening read-only connection. 1842 Source rows Filtering month: 2026-02 Writing output/report CSV ERROR: permission denied: output/report CSV Check folder access and retry Rows exported: export status failed ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.1477008999791,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "ERROR"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": "python export_report.py --month 2026-02"
+      }
+    ],
+    "reference_summary": "The terminal records the data export command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.1485148514851485,
+    "word_error_rate": 0.26865671641791045
+  },
+  "terminal_error_08.png": {
+    "image": "terminal_error_08.png",
+    "category": "Terminal error output",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "service startup Terminal Powershell Iservice _ config staging $ yml exe staging Loading configuration: yml Listening on 127 0.0.1:8082 Starting message consumer_ missing environment variable QUEUE_NAME FATAL Configuration key = queue name File: config/staging.yml Startup aborted state: stopped service exit process code: ession",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 6.38960719993338,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which status label is highlighted amber?",
+        "a": "FATAL"
+      },
+      {
+        "q": "Which command is shown in the terminal?",
+        "a": ".\\service.exe --config staging.yml"
+      }
+    ],
+    "reference_summary": "The terminal records the service startup command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background.",
+    "character_error_rate": 0.2932551319648094,
+    "word_error_rate": 0.4383561643835616
+  },
+  "webpage_01.png": {
+    "image": "webpage_01.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Harbor Weather Notes Contact Overview Local forecast Harbor Weather information Updated today Details and service glance At 01 Current conditions 02 Cloud cover 18% 03 Wind from the west Open details Open details Open details Harbor Weather Reference 01 page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.953898599836975,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Current conditions"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Harbor Weather"
+      }
+    ],
+    "reference_summary": "The webpage presents Harbor Weather with a short introduction and three information cards. The leftmost card is Current conditions, followed by two related items.",
+    "character_error_rate": 0.2750809061488673,
+    "word_error_rate": 0.29310344827586204
+  },
+  "webpage_02.png": {
+    "image": "webpage_02.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Notes Field Notes Contact Overview Observations from the coast Field Notes information Updated today Details service and glance At Wind speed 12 km/h 01 Tide window 02 High tide 10.42 03 Open details Open details Open details Field Notes Reference 02 page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.615863400045782,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Tide window"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Field Notes"
+      }
+    ],
+    "reference_summary": "The webpage presents Field Notes with a short introduction and three information cards. The leftmost card is High tide 10:42, followed by two related items.",
+    "character_error_rate": 0.39215686274509803,
+    "word_error_rate": 0.49206349206349204
+  },
+  "webpage_03.png": {
+    "image": "webpage_03.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Northstar Library Notes Contact Overview Find your next reference Northstar Library Updated today Details service information and glance At 02 Mapping Quiet Rivers 01 Recently added 03 The Practical Archive Open details Open details Open details Northstar Library Reference 03 page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.887030600104481,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Recently added"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Northstar Library"
+      }
+    ],
+    "reference_summary": "The webpage presents Northstar Library with a short introduction and three information cards. The leftmost card is The Practical Archive, followed by two related items.",
+    "character_error_rate": 0.286144578313253,
+    "word_error_rate": 0.3793103448275862
+  },
+  "webpage_04.png": {
+    "image": "webpage_04.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Morrow Coffee Notes Contact Overview Small batches, careful roasting Morrow Coffee information Updated today Details and service glance At 03 Origin: Guatemala 01 This week's roast 02 Cedar House Blend Open details Open details Open details Morrow Coffee Reference 04 page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.751763799926266,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "This week's roast"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Morrow Coffee"
+      }
+    ],
+    "reference_summary": "The webpage presents Morrow Coffee with a short introduction and three information cards. The leftmost card is This week's roast, followed by two related items.",
+    "character_error_rate": 0.34365325077399383,
+    "word_error_rate": 0.3709677419354839
+  },
+  "webpage_05.png": {
+    "image": "webpage_05.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Civic Garden Notes Contact Overview shared place to grow Civic Garden information Updated today Details service and glance At 01 Open hours 02 Tuesday to Saturday 03 Seed swap at 14.00 Open details Open details Open details Civic Garden Reference 05 page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.904518199851736,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Open hours"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Civic Garden"
+      }
+    ],
+    "reference_summary": "The webpage presents Civic Garden with a short introduction and three information cards. The leftmost card is Tuesday to Saturday, followed by two related items.",
+    "character_error_rate": 0.28338762214983715,
+    "word_error_rate": 0.3225806451612903
+  },
+  "webpage_06.png": {
+    "image": "webpage_06.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Transit Board Notes Contact Overview Service information Transit Board information Updated today Details service and glance At 01 Route 02 Next departure 08.17 03 Platform 2 Open details Open details Open details Reference 06 Transit Board page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.67623500013724,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Route 6"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Transit Board"
+      }
+    ],
+    "reference_summary": "The webpage presents Transit Board with a short introduction and three information cards. The leftmost card is Platform 2, followed by two related items.",
+    "character_error_rate": 0.3434343434343434,
+    "word_error_rate": 0.40350877192982454
+  },
+  "webpage_07.png": {
+    "image": "webpage_07.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Blue Finch Studio Notes Contact Overview Design and print Blue Finch Studio information Updated today Details service and glance At 03 Weight 240 gsm 01 Paper 02 Recycled matte guide Open details Open details Open details Blue Finch Studio Reference 07 Intormation page",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.723497500177473,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Paper guide"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Blue Finch Studio"
+      }
+    ],
+    "reference_summary": "The webpage presents Blue Finch Studio with a short introduction and three information cards. The leftmost card is Paper guide, followed by two related items.",
+    "character_error_rate": 0.38636363636363635,
+    "word_error_rate": 0.4576271186440678
+  },
+  "webpage_08.png": {
+    "image": "webpage_08.png",
+    "category": "Webpage",
+    "model": "gemini-3.5-flash-lite",
+    "ocr_text": "https / /nexa local/notes Orchard Lab Notes Contact Overview Research update Orchard Lab information Updated today Details service and glance At growth 3.2 cm 01 Trial 08 02 Sample count 64 03 Median Open details Open details Open details Orchard Lab Reference 08 page Intormation",
+    "ocr_status": "complete",
+    "ocr_error": "",
+    "ocr_latency_seconds": 5.420684900134802,
+    "model_status": "blocked_missing_api_key",
+    "model_response": "",
+    "model_latency_seconds": null,
+    "error": "Required configuration file is missing: config\\.env",
+    "parsed_answers": [],
+    "parsed_summary": "",
+    "qa_exact": 0,
+    "qa_total": 0,
+    "summary_token_f1": null,
+    "reference_questions": [
+      {
+        "q": "Which card appears in the leftmost position?",
+        "a": "Trial 08"
+      },
+      {
+        "q": "What is the page title?",
+        "a": "Orchard Lab"
+      }
+    ],
+    "reference_summary": "The webpage presents Orchard Lab with a short introduction and three information cards. The leftmost card is Sample count 64, followed by two related items.",
+    "character_error_rate": 0.35494880546075086,
+    "word_error_rate": 0.4576271186440678
+  }
+}

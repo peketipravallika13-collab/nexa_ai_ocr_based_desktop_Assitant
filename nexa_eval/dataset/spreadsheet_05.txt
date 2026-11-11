@@ -1,0 +1,30 @@
+Workbook  |  Transit_Times.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Route
+On time
+Delay min
+Sheet: Transit_Times
+1
+Selected cell: A1
+6
+92%
+3
+2
+Filter: All records
+11
+88%
+5
+3
+4
+96%
+1
+4
+15
+84%
+7
+5

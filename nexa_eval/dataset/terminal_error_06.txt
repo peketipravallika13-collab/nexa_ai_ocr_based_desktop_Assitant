@@ -1,0 +1,11 @@
+Terminal  |  package audit  |  PowerShell
+$ npm audit --omit=dev
+# npm audit report
+marked 4.1.0
+Severity: moderate
+Inefficient Regular Expression Complexity
+https://github.com/advisories/GHSA-xxx-1234
+fix available via npm audit fix
+found 1 moderate severity vulnerability
+audit completed in 2.3s
+session 06

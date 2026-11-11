@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "sqlite3.OperationalError"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "python manage.py migrate"
+    }
+  ],
+  "summary": "The terminal records the database migration command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

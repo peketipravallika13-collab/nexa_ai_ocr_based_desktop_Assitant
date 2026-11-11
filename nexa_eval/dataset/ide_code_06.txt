@@ -1,0 +1,30 @@
+Nexa Studio  |  File  Edit  Selection  View  Run
+workspace  |  Python
+schema.sql
+OUTLINE
+EXPLORER
+SYMBOLS
+workspace
+ 1  CREATE TABLE shipments (
+Functions
+src
+ 2      shipment_id INTEGER PRIMARY KEY,
+schema.sql
+Classes
+ 3      order_id INTEGER NOT NULL,
+tests
+ 4      status TEXT NOT NULL,
+README.md
+GIT
+ 5      updated_at TIMESTAMP NOT NULL
+working tree
+ 6  );
+highlight: amber
+ 7  
+ 8  CREATE INDEX idx_shipments_status
+ 9      ON shipments(status);
+10  
+11  SELECT status, COUNT(*) AS total
+12  FROM shipments
+13  GROUP BY status
+14  ORDER BY total DESC;

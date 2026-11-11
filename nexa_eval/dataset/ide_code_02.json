@@ -1,0 +1,14 @@
+{
+  "category": "IDE code",
+  "questions": [
+    {
+      "q": "Which code line is highlighted amber?",
+      "a": "line 3"
+    },
+    {
+      "q": "Which file is open in the editor?",
+      "a": "batch_job.py"
+    }
+  ],
+  "summary": "The IDE shows batch_job.py in the main editor with a selected line highlighted in amber. The project explorer and symbol panels remain visible around the source code."
+}

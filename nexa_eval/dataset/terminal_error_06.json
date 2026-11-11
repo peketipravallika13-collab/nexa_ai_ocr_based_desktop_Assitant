@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "Severity"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "npm audit --omit=dev"
+    }
+  ],
+  "summary": "The terminal records the package audit command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

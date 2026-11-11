@@ -1,0 +1,27 @@
+Nexa Studio  |  File  Edit  Selection  View  Run
+workspace  |  Python
+invoice_total.py
+OUTLINE
+EXPLORER
+SYMBOLS
+workspace
+ 1  from decimal import Decimal
+Functions
+src
+ 2  
+invoice_total.py
+Classes
+ 3  def invoice_total(lines: list[tuple[int, Decimal]]) -> Decimal:
+tests
+ 4      subtotal = Decimal("0.00")
+README.md
+GIT
+ 5      for quantity, unit_price in lines:
+working tree
+ 6          subtotal += quantity * unit_price
+highlight: amber
+ 7      tax = subtotal * Decimal("0.08")
+ 8      return (subtotal + tax).quantize(Decimal("0.01"))
+ 9  
+10  items = [(2, Decimal("14.50")), (1, Decimal("8.00"))]
+11  print(invoice_total(items))

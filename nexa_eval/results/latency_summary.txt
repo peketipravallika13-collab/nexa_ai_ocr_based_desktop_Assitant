@@ -1,0 +1,10 @@
+Nexa AI evaluation latency
+Model: gemini-3.5-flash-lite
+Times are wall-clock measurements from this run or reused completed cache entries.
+
+Stage | N | Mean seconds | Median seconds | P95 seconds
+--- | ---: | ---: | ---: | ---:
+App preprocessing + EasyOCR | 40 | 6.105 | 5.886 | 7.607
+Gemini request | 0 | N/A | N/A | N/A
+
+Gemini latency unavailable: Required configuration file is missing: config\.env

@@ -1,0 +1,12 @@
+Terminal  |  service startup  |  PowerShell
+$ .\service.exe --config staging.yml
+Loading configuration: staging.yml
+Listening on 127.0.0.1:8082
+Starting message consumer...
+FATAL: missing environment variable QUEUE_NAME
+Configuration key: queue.name
+File: config/staging.yml
+Startup aborted
+service state: stopped
+process exit code: 2
+session 08

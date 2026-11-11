@@ -1,0 +1,14 @@
+{
+  "category": "Terminal error output",
+  "questions": [
+    {
+      "q": "Which status label is highlighted amber?",
+      "a": "ERROR"
+    },
+    {
+      "q": "Which command is shown in the terminal?",
+      "a": "deployctl release --service api"
+    }
+  ],
+  "summary": "The terminal records the deploy api command and its resulting diagnostic output. The failure or warning is highlighted against the dark console background."
+}

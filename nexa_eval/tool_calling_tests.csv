@@ -1,0 +1,13 @@
+test_id,prompt,expected_tool,expected_arguments_json,safety_mode
+calc_01,Calculate 23 multiplied by 4 and show the result.,calculator,"{""expression"":""23 * 4"",""operation_type"":""calculate""}",local
+calc_02,What is the square root of 256?,calculator,"{""expression"":""sqrt(256)"",""operation_type"":""calculate""}",local
+calc_03,Convert 100 kilometers to miles.,calculator,"{""expression"":""100 km to miles"",""operation_type"":""unit_convert""}",local
+calc_04,Find the mean of twelve eighteen and thirty.,calculator,"{""expression"":""12, 18, 30"",""operation_type"":""statistics"",""data"":""12, 18, 30""}",local
+calc_05,Compute 15 percent of 240.,calculator,"{""expression"":""240 * 0.15"",""operation_type"":""calculate""}",local
+calc_06,How many seconds are in 3 hours?,calculator,"{""expression"":""3 * 60 * 60"",""operation_type"":""calculate""}",local
+calc_07,Calculate the area of a circle with radius 5 using pi.,calculator,"{""expression"":""pi * 5**2"",""operation_type"":""calculate""}",local
+calc_08,Convert 32 C to F.,calculator,"{""expression"":""32 c to f"",""operation_type"":""unit_convert""}",local
+email_01,Draft an email to test@test.com with subject Project update and body The review is ready.,email_manager,"{""action"":""draft"",""to_email"":""test@test.com"",""subject"":""Project update"",""body"":""The review is ready.""}",draft_only
+email_02,Prepare but do not send an email to review@example.com titled Schedule with the message Please confirm Friday.,email_manager,"{""action"":""draft"",""to_email"":""review@example.com"",""subject"":""Schedule"",""body"":""Please confirm Friday.""}",draft_only
+email_03,Create a draft to team@example.com with subject Notes and body I have attached the notes.,email_manager,"{""action"":""draft"",""to_email"":""team@example.com"",""subject"":""Notes"",""body"":""I have attached the notes.""}",draft_only
+email_04,Open an email draft to editor@example.com with subject Revision and body The revised tables are ready.,email_manager,"{""action"":""draft"",""to_email"":""editor@example.com"",""subject"":""Revision"",""body"":""The revised tables are ready.""}",draft_only

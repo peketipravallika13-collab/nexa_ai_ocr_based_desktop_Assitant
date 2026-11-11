@@ -1,0 +1,30 @@
+Workbook  |  Lab_Readings.xlsx  |  Saved
+File    Home    Insert    Data    Review
+fx
+A1
+A
+B
+C
+Sample
+pH
+Temp C
+Sheet: Lab_Readings
+1
+Selected cell: A1
+A-14
+7.2
+18.4
+2
+Filter: All records
+B-09
+6.8
+17.9
+3
+C-03
+7.0
+19.1
+4
+D-21
+6.5
+18.0
+5
